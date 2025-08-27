@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- script cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- link icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/20L+uP61i6q+l6T2nQz2iB1Pz3B5P52P6a6q6q5l4w..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Menu Tea</title>
+  </head>
+  <body class="bg-orange-100">
+    <!-- navbar home-->
+    <nav>
+      <div
+        class="flex items-center justify-center justify-between p-2 fixed shadow-md w-full z-10"
+      >
+        <a href=""><img src="../img/logo.png" alt="logo" class="size-12" /></a>
+        <div class="space-x-10 lg:space-x-16 text-white">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="text-white bg-red-600 p-1 rounded-md">Log Out</button>
+      </div>
+
+      <div
+        class="relative h-screen bg-[url('../img/gambar2.jpg')] bg-cover bg-center after:absolute after:inset-0 after:bg-black/20 flex flex-col justify-center shadow-lg"
+        id="home"
+      >
+        <div class="relative z-10 m-10">
+          <h1 class="font-bold text-2xl lg:text-3xl text-white">
+            Selamat Datang di
+            <span class="text-orange-950 font-serif">Coffee Shop</span>
+          </h1>
+          <p class="text-white md:w-1/2 lg:w-full sm:w-1/2 w-1/2">
+            Kami menyediakan banyak varian minuman yang sesuai dengan selera
+            Anda.
+          </p>
+          <button
+            class="text-white bg-orange-800 p-1 rounded-md mt-2 hover:bg-orange-900 shadow-md"
+          >
+            <a href="#about">Cek Sekarang</a>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- about -->
+    <div id="about">
+      <section id="tea">
+        <h1 class="text-orange-950 font-bold text-center text-2xl mt-5">
+          Coffee Popular Menu
+        </h1>
+        <p class="text-center font-serif">Pilih minuman favorit Anda.</p>
+
+        <div class="max-w-sm mx-auto">
+          <ul
+            class="flex m-3 justify-center border border-orange-700 rounded-md"
+          >
+            <li class="">
+              <a
+                href="./all.html#all"
+                class="m-5 hover:bg-amber-700 p-2 hover:text-white rounded-md"
+                >All</a
+              >
+            </li>
+            <li>
+              <a
+                href="./chocolate.html#chocolate"
+                class="m-5 hover:bg-amber-700 p-2 hover:text-white rounded-md"
+                >Chocolate</a
+              >
+            </li>
+            <li>
+              <a
+                href="./coffe.html#coffee"
+                class="m-5 hover:bg-amber-700 p-2 hover:text-white rounded-md"
+                >Coffee</a
+              >
+            </li>
+            <li>
+              <a
+                href="./tea.html#tea"
+                class="m-5 hover:bg-amber-700 p-2 hover:text-white rounded-md"
+                >Tea</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="md:flex m-3">
+          <div class="mx-auto max-w-sm md:w-1/2 rounded-md m-3 p-2">
+            <img src="../img/teh1.jpg" alt="gambar" class="rounded-lg" />
+            <h1 class="text-center font-bold mt-2">BLACK TEA</h1>
+            <div class="flex justify-center">
+              <p class="line-through text-amber-800 opacity-50">Rp29.500</p>
+              <p class="text-amber-800 ml-2">Rp24.500</p>
+            </div>
+          </div>
+
+          <div class="mx-auto max-w-sm md:w-1/2 rounded-md m-3 p-2">
+            <img src="../img/teh2.jpg" alt="gambar" class="rounded-lg" />
+            <h1 class="text-center font-bold mt-2">ENGLISH BREAKFAST TEA</h1>
+            <div class="flex justify-center">
+              <p class="line-through text-amber-800 opacity-50">Rp30.900</p>
+              <p class="text-amber-800 ml-2">Rp26.500</p>
+            </div>
+          </div>
+
+          <div class="mx-auto max-w-sm md:w-1/2 rounded- m-3 p-2">
+            <img src="../img/teh3.jpg" alt="gambar" class="rounded-lg" />
+            <h1 class="text-center font-bold mt-2">HERBAL TEA</h1>
+            <div class="flex justify-center">
+              <p class="line-through text-amber-800 opacity-50">Rp30.900</p>
+              <p class="text-amber-800 ml-2">Rp26.500</p>
+            </div>
+          </div>
+
+          <div class="mx-auto max-w-sm md:w-1/2 rounded- m-3 p-2">
+            <img src="../img/teh4.jpg" alt="gambar" class="rounded-lg" />
+            <h1 class="text-center font-bold mt-2">LEMON TEA</h1>
+            <div class="flex justify-center">
+              <p class="line-through text-amber-800 opacity-50">Rp30.900</p>
+              <p class="text-amber-800 ml-2">Rp26.500</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+      <div class="bg-amber-800 shadow-md text-amber-800 h-auto">
+        <br />
+        <h1 class="text-white text-2xl font-bold text-center">Contact Us</h1>
+        <hr class="mt-2" />
+
+        <p class="text-white text-center mt-2">
+          Kirimkan pesan terbaikmu lewat kolom dibawah...<i
+            class="fa-regular fa-face-smile-beam"
+          ></i>
+        </p>
+        <div class="md:flex">
+          <div class="m-4">
+            <input
+              type="text"
+              class="w-1/2 border border-orange-900 p-1 m-2 mt-1 rounded-md bg-white text-black"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              class="w-1/2 border p-1 m-2 mt-1 rounded-md bg-white text-black"
+              placeholder="Email"
+            /><br />
+            <textarea
+              name=""
+              id=""
+              class="m-2 h-40 w-1/2 p-1 mt-1 rounded-md text-black"
+              placeholder="Your Message"
+            ></textarea
+            ><br />
+            <button
+              class="text-amber-800 bg-white p-1 m-2 mt-1 rounded-md w-1/2"
+            >
+              Send
+            </button>
+          </div>
+
+          <div class="text-white">
+            <i class="fa-solid fa-location-dot m-4">
+              <span class="m-5">Montong Gading</span> </i
+            ><br />
+            <i class="fa-solid fa-phone m-4">
+              <span class="m-5">(+62) 87759700556</span> </i
+            ><br />
+            <i class="fa-solid fa-envelope m-4">
+              <span class="m-5">winiulantari@gmail.com</span>
+            </i>
+            <hr class="mt-5" />
+            <div class="m-2 flex items-center justify-center cursor-pointer">
+              <a href="#"><i class="fa-brands fa-facebook-f p-2"></i></a>
+              <a href="https://www.instagram.com/i.winn___/"
+                ><i class="fa-brands fa-instagram p-2"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-telegram p-2"></i></a>
+              <a href="https://www.tiktok.com/@a_strangerrr___"
+                ><i class="fa-brands fa-tiktok p-2"></i
+              ></a>
+            </div>
+            <div class="p-2 my-0">
+              <p class="text-center">Don't forget to follow my social media</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="m-2 text-center p-1">
+        &copy; 2025 Your Company. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
